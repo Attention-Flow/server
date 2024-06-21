@@ -1,0 +1,65 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "declaration": true,
+    "removeComments": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "allowSyntheticDefaultImports": true,
+    "target": "es2017",
+    "sourceMap": true,
+    "outDir": "./dist",
+    "baseUrl": "./",
+    "incremental": true,
+    "skipLibCheck": true,
+    "strictNullChecks": false,
+    "noImplicitAny": false,
+    "strictBindCallApply": false,
+    "forceConsistentCasingInFileNames": false,
+    "noFallthroughCasesInSwitch": false,
+    "paths": {
+      "@app/sma_analysis": [
+        "libs/sma_analysis/src"
+      ],
+      "@app/sma_analysis/*": [
+        "libs/sma_analysis/src/*"
+      ],
+      "@app/mod1": [
+        "libs/mod1/src"
+      ],
+      "@app/mod1/*": [
+        "libs/mod1/src/*"
+      ],
+      "@app/sma_groups": [
+        "libs/sma_groups/src"
+      ],
+      "@app/sma_groups/*": [
+        "libs/sma_groups/src/*"
+      ],
+      "@app/sma_messages": [
+        "libs/sma_messages/src"
+      ],
+      "@app/sma_messages/*": [
+        "libs/sma_messages/src/*"
+      ],
+      "@app/sma_common": [
+        "libs/sma_common/src"
+      ],
+      "@app/sma_common/*": [
+        "libs/sma_common/src/*"
+      ],
+      "@app/sma_subscriptions": [
+        "libs/sma_subscriptions/src"
+      ],
+      "@app/sma_subscriptions/*": [
+        "libs/sma_subscriptions/src/*"
+      ],
+      "@app/sma_analysis_v2": [
+        "libs/sma_analysis_v2/src"
+      ],
+      "@app/sma_analysis_v2/*": [
+        "libs/sma_analysis_v2/src/*"
+      ]
+    }
+  }
+}
